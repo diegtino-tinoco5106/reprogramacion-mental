@@ -292,3 +292,19 @@
  .message-video-frame{height:auto;max-height:490px;aspect-ratio:3/4}
  .message-feature{overflow:hidden}
 }
+
+
+/* Remates V3: tarjetas a ancho de columna y navegación adaptable */
+.gallery-grid-main > .gallery-tile,
+.gallery-grid-more > .gallery-tile{
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  aspect-ratio:auto !important;
+  justify-self:stretch;
+}
+@media (max-width:1050px){
+  .nav-links{display:none}
+  .nav-shell{min-width:0;max-width:100%;gap:14px}
+  .nav-cta{flex-shrink:0}
+}
