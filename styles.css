@@ -193,3 +193,12 @@
 @media(max-width:1100px){.message-feature{grid-template-columns:minmax(0,1fr) minmax(280px,.86fr)}.message-feature-copy{padding:28px}.message-feature-copy h3{font-size:36px}}
 @media(max-width:800px){.message-heading{grid-template-columns:1fr;gap:20px}.message-heading h2{font-size:clamp(42px,7vw,60px)}.message-feature{grid-template-columns:1fr}.message-video-frame{aspect-ratio:16/9;min-height:0}.message-video-frame video{height:100%;min-height:0}.message-feature-copy{padding:30px}.message-feature-copy h3{font-size:38px}.message-feature-copy>p{max-width:660px}}
 @media(max-width:570px){.message-section{padding:64px 18px}.message-heading{margin-bottom:24px}.message-heading h2{font-size:40px}.message-feature{border-radius:13px}.message-video-frame{aspect-ratio:16/9}.message-feature-copy{padding:24px 20px 27px}.message-feature-copy h3{font-size:32px}.message-feature-cta{font-size:12px;width:100%;padding:16px 14px}}
+
+
+/* Encuadres cuidadosos: Romel Pacheco en galería y Luis con gorro en biografía */
+.gallery-grid-main .gallery-tile-romel{background:radial-gradient(circle at 50% 43%,#3a2241,#110c18 85%)}
+.gallery-grid-main .gallery-tile-romel img{object-fit:contain;object-position:center center;filter:saturate(.94) contrast(1.03)}
+.portrait-image-hat{background:radial-gradient(circle at 55% 36%,#261b34,#08090d 75%)}
+.portrait-image-hat img{object-fit:cover;object-position:50% 34%;filter:contrast(1.04) saturate(.95)}
+@media(max-width:800px){.portrait-image-hat img{object-position:50% 30%}}
+@media(max-width:570px){.portrait-image-hat img{object-position:50% 29%}.gallery-grid-main .gallery-tile-romel img{object-fit:contain}}
